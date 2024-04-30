@@ -8,7 +8,7 @@
 ## Entrega da versão revisada do projeto
 
 
-=======
+
 **Instituto de Informática/UFG**
 
 **Curso:** Construção de Software
@@ -21,7 +21,7 @@
   * João Gabriel Cavalcante França;
   * Leonardo Moreira de Araújo;
   * Luca Santos Martins.
-=======
+
 
 
 
