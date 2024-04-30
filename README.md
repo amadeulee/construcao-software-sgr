@@ -21,7 +21,7 @@
   * João Gabriel Cavalcante França;
   * Leonardo Moreira de Araújo;
   * Luca Santos Martins.
-
+=======
 
 
 
@@ -55,6 +55,6 @@
 * estoqueIngrediente:
   * Classe que possuí o nome do ingrediente e a quantidade existente em estoque
 
-**Testes:** ❓
+## Testes: ❓
 
-**Gerencia de configuração:** ❓
+## Gerencia de configuração: ❓
