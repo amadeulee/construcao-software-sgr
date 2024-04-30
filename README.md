@@ -11,7 +11,7 @@
 
 **Instituto de Informática/UFG**
 
-**Curso:** Construção de Software
+**Curso:** Engenharia de Software
 
 **Professor:** Elias Batista Ferreira
 
