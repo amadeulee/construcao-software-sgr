@@ -25,7 +25,7 @@
 
 
 
-## Diagrama de classe: 
+## **Diagrama de classe:**
 ![image](https://github.com/amadeulee/construcao-software-sgr/assets/62031286/a48a3f12-4fb3-4e3f-a99f-d7cdb2374a20)
 
 * PedidoStatus:
