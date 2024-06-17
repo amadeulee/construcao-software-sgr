@@ -66,7 +66,9 @@ Dentro do sistema, há a distinção entre dois tipos de funcionários responsá
 
 - estoqueIngrediente:
   - Classe que possuí o nome do ingrediente e a quantidade existente em estoque
+ 
+## [História de Usuário](https://github.com/amadeulee/construcao-software-sgr/blob/master/SGR%20-%20Hist%C3%B3rias%20de%20Usu%C3%A1rio.pdf)
 
-## Testes: ❓
+## Casos de Testes:
 
 ## Gerencia de configuração: ❓
