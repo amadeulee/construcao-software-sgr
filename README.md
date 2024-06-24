@@ -66,9 +66,258 @@ Dentro do sistema, há a distinção entre dois tipos de funcionários responsá
 
 - estoqueIngrediente:
   - Classe que possuí o nome do ingrediente e a quantidade existente em estoque
- 
+
 ## [História de Usuário](https://github.com/amadeulee/construcao-software-sgr/blob/master/SGR%20-%20Hist%C3%B3rias%20de%20Usu%C3%A1rio.pdf)
 
 ## Casos de Testes:
 
-## Gerencia de configuração: ❓
+<!-- ## Gerencia de configuração: ❓ -->
+
+## Endpoints:
+
+### CRUD dos Garçons (Funcionário)
+
+1. Criar Garçom
+
+- Método: POST
+- URL: http://localhost/api/garcons
+- Body:
+
+```
+{
+  "nome": "String",
+  "cpf": "String",
+  "email": "String",
+  "idade": "Integer",
+  "telefone": "String"
+}
+
+```
+
+2. Obter Todos os Garçons
+
+- Método: GET
+- URL: http://localhost/api/garcons
+
+3. Obter Garçom por ID
+
+- Método: GET
+- URL: http://localhost/api/garcons/{id}
+
+4. Atualizar Garçom
+
+- Método: PUT
+- URL: http://localhost/api/garcons/{id}
+- Body:
+
+```
+{
+  "nome": "String",
+  "cpf": "String",
+  "email": "String",
+  "idade": "Integer",
+  "telefone": "String"
+}
+
+```
+
+5. Excluir Garçom
+
+- Método: DELETE
+- URL: http://localhost/api/garcons/{id}
+
+### CRUD dos Pedidos
+
+1. Criar Pedido
+
+- Método: POST
+- URL: http://localhost/api/pedidos
+- Body:
+
+```
+{
+  "itensPedidos": [{"item": "ItemID", "quantidadeSolicitada": "Integer"}],
+  "statusPedido": "PENDENTE",
+  "mesa": "MesaID",
+  "funcionario": "FuncionarioID"
+}
+
+```
+
+2. Obter Todos os Pedidos
+
+- Método: GET
+- URL: http://localhost/api/pedidos
+
+3. Obter Pedido por ID
+
+- Método: GET
+- URL: http://localhost/api/pedidos/{id}
+
+4. Atualizar Pedido
+
+- Método: PUT
+- URL: http://localhost/api/pedidos/{id}
+- Body:
+
+```
+{
+  "itensPedidos": [{"item": "ItemID", "quantidadeSolicitada": "Integer"}],
+  "statusPedido": "PedidoStatus",
+  "mesa": "MesaID",
+  "funcionario": "FuncionarioID"
+}
+```
+
+5. Excluir Pedido
+
+- Método: DELETE
+- URL: http://localhost/api/pedidos/{id}
+
+### CRUD dos Itens do Cardápio
+
+1. Criar Item
+
+- Método: POST
+- URL: http://localhost/api/itens
+- Body:
+
+```
+{
+  "nome": "String",
+  "preco": "Double",
+  "itensIngredientes": [{"ingrediente": "IngredienteID", "quantidade": "Double"}]
+}
+
+```
+
+2. Obter Todos os Itens
+
+- Método: GET
+- URL: http://localhost/api/itens
+
+3. Obter Item por ID
+
+- Método: GET
+- URL: http://localhost/api/itens/{id}
+
+4. Atualizar Item
+
+- Método: PUT
+- URL: http://localhost/api/itens/{id}
+- Body:
+
+```
+{
+  "nome": "String",
+  "preco": "Double",
+  "itensIngredientes": [{"ingrediente": "IngredienteID", "quantidade": "Double"}]
+}
+
+```
+
+5. Excluir Item
+
+- Método: DELETE
+- URL: http://localhost/api/itens/{id}
+
+### CRUD dos Ingredientes
+
+1. Criar Ingrediente
+
+- Método: POST
+- URL: http://localhost/api/ingredientes
+- Body:
+
+```
+{
+  "nome": "String",
+  "quantidade": "Double"
+}
+```
+
+2. Obter Todos os Ingredientes
+
+- Método: GET
+- URL: http://localhost/api/ingredientes
+
+3. Obter Ingrediente por ID
+
+- Método: GET
+- URL: http://localhost/api/ingredientes/{id}
+
+4. Atualizar Ingrediente
+
+- Método: PUT
+- URL: http://localhost/api/ingredientes/{id}
+- Body:
+
+```
+{
+  "nome": "String",
+  "quantidade": "Double"
+}
+```
+
+5. Excluir Ingrediente
+
+- Método: DELETE
+- URL: http://localhost/api/ingredientes/{id}
+
+### Endpoint Controle de Estoque
+
+1. Obter Estoque
+
+- Método: GET
+- URL: http://localhost/api/estoque
+
+### Endpoint para Controle de Mesas
+
+1. Obter Todas as Mesas
+
+- Método: GET
+- URL: http://localhost/api/mesas
+
+2. Obter Mesa por ID
+
+- Método: GET
+- URL: http://localhost/api/mesas/{id}
+
+3. Atualizar Disponibilidade da Mesa
+
+- Método: PUT
+- URL: http://localhost/api/mesas/{id}
+- Body:
+
+```
+{
+  "livre": "boolean"
+}
+```
+
+### Fechamento de Contas e Cálculo de Vendas
+
+1. Fechar Conta por Mesa
+
+- Método: POST
+- URL: http://localhost/api/contas/fechar
+- Body:
+
+```
+{
+  "mesaId": "Integer"
+}
+```
+
+2. Calcular Total de Vendas por Garçom
+
+- Método: GET
+- URL: http://localhost/api/vendas/garcom/{garcomId}
+
+3. Calcular Total de Vendas em um Período
+
+- Método: GET
+- URL: http://localhost/api/vendas/periodo
+- Parâmetros:
+  - dataInicio: String (formato: YYYY-MM-DD)
+  - dataFim: String (formato: YYYY-MM-DD)
