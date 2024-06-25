@@ -70,7 +70,7 @@ Dentro do sistema, há a distinção entre dois tipos de funcionários responsá
 
 ## [História de Usuário](https://github.com/amadeulee/construcao-software-sgr/blob/master/SGR%20-%20Hist%C3%B3rias%20de%20Usu%C3%A1rio.pdf)
 
-## Casos de Testes:
+## [Casos de Testes](https://github.com/amadeulee/construcao-software-sgr/blob/master/SGR%20-%20Casos%20de%20Teste.pdf)
 
 <!-- ## Gerencia de configuração: ❓ -->
 
