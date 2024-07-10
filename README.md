@@ -74,7 +74,15 @@ Dentro do sistema, há a distinção entre dois tipos de funcionários responsá
 
 <!-- ## Gerencia de configuração: ❓ -->
 
-## Endpoints:
+## [Endpoints](https://github.com/amadeulee/construcao-software-sgr/blob/master/SGR%20-%20Endpoints.pdf)
+
+## Inclusão de novos artefatos 10/07/2024:
+
+- [Especificação estrutural completa da API](https://github.com/amadeulee/construcao-software-sgr/blob/2bdf2315119c5dd97ec61db1a2e5d5abddd245c9/Projeto-API.pdf)
+
+
+
+<!-- 
 
 ### CRUD dos Garçons (Funcionário)
 
@@ -323,6 +331,12 @@ Dentro do sistema, há a distinção entre dois tipos de funcionários responsá
   - dataInicio: String (formato: YYYY-MM-DD)
   - dataFim: String (formato: YYYY-MM-DD)
 
-## Inclusão de novos artefatos 10/07/2024:
 
-- [Especificação estrutural completa da API](https://github.com/amadeulee/construcao-software-sgr/blob/2bdf2315119c5dd97ec61db1a2e5d5abddd245c9/Projeto-API.pdf)
+
+
+
+
+
+
+
+-->
