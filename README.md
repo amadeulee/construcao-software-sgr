@@ -30,7 +30,7 @@ Dentro do sistema, há a distinção entre dois tipos de funcionários responsá
 
 ## **Diagrama de classe:**
 
-![image](https://github.com/amadeulee/construcao-software-sgr/assets/62031286/c37551b0-2db6-489b-9fec-17fd1d5aebaf)
+![image](https://github.com/amadeulee/construcao-software-sgr/blob/1663359318979e4a67579ef226a56b1a963890d5/Diagrama%20de%20Classes.png)
 
 
 - PedidoStatus:
