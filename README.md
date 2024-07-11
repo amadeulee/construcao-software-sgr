@@ -86,5 +86,5 @@ Dentro do sistema, há a distinção entre dois tipos de funcionários responsá
 
 ## Artefatos extras complementares:
 
-- [Especificação estrutural completa da API](https://github.com/amadeulee/construcao-software-sgr/blob/2bdf2315119c5dd97ec61db1a2e5d5abddd245c9/Projeto-API.pdf)
+- [Especificação estrutural final e completa da API](https://github.com/amadeulee/construcao-software-sgr/blob/2bdf2315119c5dd97ec61db1a2e5d5abddd245c9/Projeto-API.pdf)
 - [Repositório com o código executável da API](https://github.com/lucamartins/ufg-cs-sgr-core-api)
