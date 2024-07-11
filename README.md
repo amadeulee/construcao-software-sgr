@@ -76,10 +76,11 @@ Dentro do sistema, há a distinção entre dois tipos de funcionários responsá
 
 ## [Endpoints](https://github.com/amadeulee/construcao-software-sgr/blob/master/SGR%20-%20Endpoints.pdf)
 
+## Estratégia de controle de versão
+
 ## Inclusão de novos artefatos 10/07/2024:
 
 - [Especificação estrutural completa da API](https://github.com/amadeulee/construcao-software-sgr/blob/2bdf2315119c5dd97ec61db1a2e5d5abddd245c9/Projeto-API.pdf)
-
 
 
 <!-- 
