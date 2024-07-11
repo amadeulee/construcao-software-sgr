@@ -28,7 +28,7 @@ O projeto consiste em um sistema de gerenciamento de pedidos em um restaurante, 
 
 Dentro do sistema, há a distinção entre dois tipos de funcionários responsáveis pelas principais operações: o garçom e o gerente. Enquanto o garçom concentra-se nas atividades diretas relacionadas aos pedidos, como a anotação e o encaminhamento dos pedidos, o fechamento das contas, entre outras, o gerente desempenha, além das funções do garçom, o controle do estoque do restaurante. Portanto, cabe ao gerente, quando identificada a demanda por algum ingrediente em estoque, providenciar a compra e a reposição do item. Em situações de alta demanda ou falta de pessoal, o gerente pode assumir as responsabilidades de um garçom, garantindo assim a continuidade das operações do restaurante.
 
-## **Diagrama de classe:**
+## **Diagrama de classe**
 
 ![image](https://github.com/amadeulee/construcao-software-sgr/blob/1663359318979e4a67579ef226a56b1a963890d5/Diagrama%20de%20Classes.png)
 
