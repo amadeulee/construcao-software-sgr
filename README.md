@@ -88,3 +88,4 @@ Dentro do sistema, há a distinção entre dois tipos de funcionários responsá
 
 - [Especificação estrutural final e completa da API](https://github.com/amadeulee/construcao-software-sgr/blob/2bdf2315119c5dd97ec61db1a2e5d5abddd245c9/Projeto-API.pdf)
 - [Repositório com o código executável da API](https://github.com/lucamartins/ufg-cs-sgr-core-api)
+- [Relatório do resultado da aplicação de técnicas de teste e qualidade](https://github.com/amadeulee/construcao-software-sgr/blob/master/Course%20-%20Software%20Testing%20and%20Quality%20Assurance%20-%20Prof.%20Mohamad%20Kassab.pdf)
